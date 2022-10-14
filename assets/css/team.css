@@ -29,7 +29,10 @@
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   overflow: scroll;
+   overflow-y: scroll;
+   overflow-x: hidden;
+
+    
 }
 @media (min-width: 2030px) {
    .container_team {
@@ -39,6 +42,13 @@
       padding-top: 293.3px;
       padding-bottom: 133.3px;
    }
+}
+.container_team {
+   -ms-overflow-style: none;  /* Internet Explorer 10+ */
+   scrollbar-width: none;  /* Firefox */
+}
+.container_team::-webkit-scrollbar { 
+   display: none;  /* Safari and Chrome */
 }
 @media (max-width: 1560px) {
    .container_team {
