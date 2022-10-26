@@ -1832,15 +1832,17 @@ body {
   text-align: center;
   position: relative;
   margin: 0 0 0 10px;
+  padding: 30px;
 }
 .project--row2--c1 img {
   width: max(40vmin, 300px);
   height: auto;
   border: none;
+  border: 10px solid #8e91ff;
   position: center;
   size: cover;
   repeat: no-repeat;
-  padding: 10px;
+  padding: 0px;
 }
 @media (max-width: 700px) {
   .project--row2--c1 img {
